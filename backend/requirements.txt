@@ -8,3 +8,4 @@ google-generativeai
 pydantic
 python-jose[cryptography]
 email-validator
+passlib[bcrypt]
