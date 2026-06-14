@@ -6,3 +6,4 @@ python-dotenv
 python-multipart
 google-generativeai
 pydantic
+python-jose[cryptography]
