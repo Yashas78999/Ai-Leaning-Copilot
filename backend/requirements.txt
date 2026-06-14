@@ -11,3 +11,4 @@ email-validator
 passlib[bcrypt]
 pypdf
 numpy
+sentence-transformers
