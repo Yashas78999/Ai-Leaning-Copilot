@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
-import { getAllPdfs } from "../services/pdfService";
+import { getAllPdfs, uploadPdf } from "../services/pdfService";
 import { FileText, MessageSquare, ExternalLink, Calendar, Trash2, Shield, Brain, BookOpen, AlertCircle } from "lucide-react";
 import api from "../api/axios";
 import toast from "react-hot-toast";
