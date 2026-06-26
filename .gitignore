@@ -1,6 +1,36 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+backend_python_backup/
+
+# Node/React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Java/Maven
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Env and sensitive files
 .env
 backend/.env
 backend/uploads/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
