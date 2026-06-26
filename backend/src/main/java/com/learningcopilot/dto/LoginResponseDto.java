@@ -16,6 +16,7 @@ public class LoginResponseDto {
         this.tokenType = tokenType;
     }
 
+    @JsonProperty("access_token")
     public String getAccessToken() {
         return accessToken;
     }
@@ -24,6 +25,7 @@ public class LoginResponseDto {
         this.accessToken = accessToken;
     }
 
+    @JsonProperty("token_type")
     public String getTokenType() {
         return tokenType;
     }
